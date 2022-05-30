@@ -1,0 +1,23 @@
+.btn-primary {
+  font-size: 1.5em;
+  display: inline-block;
+  color: white;
+  background-color: #D54040;
+  border: none;
+  border-radius: 45px;
+  cursor: pointer;
+  padding: 0.1em 1em;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-alt {
+  font-size: 1.5em;
+  display: inline-block;
+  color: white;
+  background-color: #141920;
+  border: none;
+  border-radius: 45px;
+  cursor: pointer;
+  padding: 0.1em 1em;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
