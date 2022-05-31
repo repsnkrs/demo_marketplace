@@ -7,9 +7,10 @@ const Input: React.FC<InputProps> = ({
   placeholder,
   onChange,
   value,
+  type,
   primary }) => {
   return (
-    <input className={primary ? 'input-primary' : 'input-alt'} value={value} placeholder={placeholder} onChange={onChange} />
+    <input type={type} className={primary ? 'input-primary' : 'input-alt'} value={value} placeholder={placeholder} onChange={onChange} />
   );
 }
 

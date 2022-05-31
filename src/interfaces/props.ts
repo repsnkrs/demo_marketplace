@@ -10,5 +10,6 @@ export interface InputProps {
   primary: boolean;
   value: string;
   onChange: (value: any) => void;
-  placeholder: string;
+  placeholder?: string;
+  type: string;
 }
